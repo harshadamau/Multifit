@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font: 14px/1.5 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/****header css start here****/
+
+header{
+    background-color: #fbce00;
+}
+
+.navbar{
+    padding:0!important
+}
+
+.d-flex{
+    display:flex;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.justify{
+    justify-content: flex-end;
+}
+
+li{
+  list-style: none;
+  margin-left:20px;
+  text-transform: uppercase;
+}
+
+li:hover{
+  color:#fff; 
+}
+
+.timelist{
+  margin-right: 60px;
+  font-weight: 300;
+}
+
+.timelist a{
+  color:#000;
+  text-decoration:none;
+} 
+
+/****header css close here****/
+
+/****nav css strat here****/
+
+nav{
+    background:#e9e9e9;
+}
+
+nav .container{
+    justify-content: space-between;
+}
+
+.material-icons{
+   vertical-align: middle;
+   padding-bottom:3px;
+}
+
+hr{
+    margin:0;
+}
+
+/****nav css close here****/
+
+/****jumbotron css strat here****/
+
+.jumbotron{
+    padding:0!important;
+    margin-bottom:0;
+    background-image: url(../images/Layer1.png)!important;
+    background-size: cover;
+    height:500px;
+    border-radius: 0px;
+}
+
+.text{
+    position:absolute;
+    /* top:10px; */
+    right:310px;
+    padding-top:67px;
+    color:#ffff;
+    z-index:999;
+}
+
+.jumbotron-caption{
+    text-align: left;
+}
+
+.bold{
+    font-weight:700;
+    color:#fbce00;
+}
+
+.strong{
+    font-weight: 900;
+}
+
+hr{
+   border: 3px solid #fff;
+   width: 360px;
+   margin-bottom: 10px;
+   background-color: white;
+}
+
+.text p{
+    font-size:14px;
+}
+
+.btn{
+    color: #fff;
+    border: 1px solid #fff!important;
+    background-color: transparent;
+    margin-right:10px;
+}
+
+.btn:hover{
+    background-color:#fbce00;
+    color: #000;
+}
+
+/****jumbotron css close here****/
+
+/****carousel css strat here****/
+
+.col-md-10, .col-lg-10, .col-xl-10,.col-md-5, .col-lg-5, .col-xl-5{
+    padding:0 !important;
+}
+
+.carousel-item .col-md-5, .col-lg-5, .col-xl-5{
+    margin-left:30px;
+} 
+
+.carousel-control-prev, .carousel-control-next{
+    display:inline-block !important;
+}
+
+.carousel{
+    padding:50px 0;
+    background:#e9e9e9;
+}
+
+.icon-1{
+    background:#333333;
+    color:#ffffffff;
+}
+
+.icon-1 h3{
+    margin-bottom:0;
+    padding:26px 0 10px 0;
+    border-bottom:1px solid #ffffffff;
+    display:inline-block;
+    font-size:20px;
+    font-weight:700;
+}
+
+.caption-1 hr{
+    width:97px;
+    margin:auto;
+    border:1px solid #333333;
+}
+
+.icon-1 p,a{
+    color:#717171;
+}
+
+.icon-1 p{
+    margin-bottom:0;
+    padding:16px 0 27px 0;
+    font-size:13px;
+}
+
+.caption-1{
+    text-align:center;
+    background:#ffffff;
+}
+
+.caption-1 h3{
+    color:#333333;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:0;
+    display:inline-block;
+    padding:35px 0 10px 0;
+}
+
+.caption-1 p{
+    margin:auto;    
+    width:90%;
+    padding:16px 0 40px 0;
+    color:#6c6c6c;
+}
+
+.btns .fa{
+    border:1px solid #6c6c6c;
+    padding:0 16px;
+    color:#6c6c6c;
+    font-size:43px;
+}
+
+.btns .fa:hover{
+    color:#FCA93E;
+}
+
+/****carousel css close here****/
+
+/****join css start here****/
+
+.join .para{
+    padding: 50px;
+    text-align:center;
+}
+
+.para h3{
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+}
+
+.para hr{
+    border:1px solid #333333;
+    width:150px;
+    margin-left: 415px;
+    margin-top:-40px;
+}
+.btn2{
+    padding:5px 10px;
+    background:transparent;
+}
+
+/****join css close here****/
+
+/****clients  css start here****/
+
+.clients{
+    margin-top:  50px;  
+    background-color: #e9ecef;              
+}
+      
+.clients .para hr{
+   margin-left:480px;
+}
+
+.clientsrow{
+    padding:30px;
+}
+
+.clients .col-lg-2{
+  margin-right:18px;
+}
+
+/****clients  css close here****/
+
+/****program  css start here****/
+
+.programs{
+    padding:50px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.programs h4{
+    color:#555555;
+    margin-left:20px;
+}
+
+/****program  css close here****/
+
+/****footer  css start here****/
+
+.footerline{
+    width:100%;
+    border: 1px solid #bcbcbc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#333333;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fbce00!important;
+}
+
+.ml-auto{
+    margin-left:auto;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #000;
+    background:#333333;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+ /****footer  css close here****/
+
+@media(min-width: 320px) and (max-width: 767px) {
+
+    /****header css start here****/
+
+    header{
+        display:none;
+    }
+
+    /****nav css strat here****/
+
+    .logo{
+        width:30%!important;
+    }
+
+    li{
+        margin-left:0px;
+    }
+
+    .dropdown-menu {
+        border: none;
+    }
+
+    .dropdown-item{
+       margin-left:30px;
+    }
+
+    /****jumbotron css strat here****/
+
+    .jumbotron{
+        height: 200px;
+        width:100%;
+    }
+
+    .text{
+        color:#ffffff;
+        right:0;
+        left:10px;
+        padding:0;
+    }
+
+    .bold{
+        font-weight:0;
+        font-size:14px;
+        margin-top: 10px;
+    }
+
+    .strong{
+        font-weight: 0;
+        font-size:16px;
+    }
+
+    hr{
+        border: 2px solid #fff;
+        width: 150px;
+    }
+
+    .text p{
+        font-size:12px;
+    }
+    
+    .btn{
+        padding:2px 5px;
+        font-size:12px;
+    }
+
+    .btn:hover{
+        background-color:#fbce00;
+        color: #000;
+    }
+
+    /****carousel css strat here****/
+
+    .carousel{
+        padding: 20px 5px;
+    }
+
+    .icon-1 h3{
+        padding:10px 0 5px 0;
+        font-size:18px;
+    }
+
+    .icon-1 p{
+        margin-bottom:0;
+        padding:10px 0 20px 0;
+        font-size:13px;
+    }
+
+    .btns .fa{
+        padding:0 10px;
+        font-size:35px;
+        margin-bottom:10px;
+    }
+
+    .icon-1{
+        margin-bottom: 30px;
+    }
+
+    .carousel-item .caption-1 {
+        margin-bottom:20px;
+    }
+
+    .carousel-item .col-md-5, .col-lg-5, .col-xl-5 {
+        margin-left: 0px;
+    }
+
+    /****join css start here****/
+
+    .join .para{
+        padding: 20px;
+       text-align:center;
+    }
+
+    .join hr{
+        margin-left: 65px;
+        margin-top:5px;
+    }
+
+    .para h3{
+        padding: 5px;
+        font-size:30px;
+        font-weight: 500;
+    }
+
+    .img-fluid1{
+        padding-left:150px;
+    }
+
+    .text1{
+        padding:20px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    /****clients  css start here****/
+
+    .clients .para hr{
+        margin-left:80px;
+        margin-top:5px;
+        }
+
+    .clients{
+        margin-top:0px;
+    }
+
+    .clients .col-lg-2{
+        padding-left: 50px;
+        padding-bottom: 25px;
+        padding-top:20px;
+    }
+
+    .img-fluid2{
+        height:150px;
+    }
+
+    .class{
+        font-size:16px;
+    }
+}
